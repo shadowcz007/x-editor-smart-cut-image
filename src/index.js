@@ -13,7 +13,7 @@ const smartcrop = require("smartcrop");
  * input : {url}
  * output:{url,width,height}
  */
-class TinyYoloV3View {
+class SmartCutView {
 
     static get toolbox() {
         return {
@@ -337,4 +337,4 @@ class TinyYoloV3View {
 }
 
 
-module.exports = TinyYoloV3View;
+module.exports = SmartCutView;
