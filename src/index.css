@@ -1,0 +1,63 @@
+.tf-tiny-yolo-v3 {
+    min-height: 200px;
+    /* text-align: center; */
+    max-width: 300px;
+    /* max-height: 300px; */
+}
+
+.tf-tiny-yolo-v3::before {
+    content: attr(data-title);
+    font-size: 12px;
+    font-weight: 800;
+    color: #6e8a98;
+    background-color: #fff59f;
+    padding: 4px;
+    letter-spacing: 1px;
+}
+
+.tf-tiny-yolo-v3 .add {
+    display: flex;
+    width: 200px;
+    background: #eeeeee;
+    /* height: 88px; */
+    margin: 8px;
+    border-radius: 4px;
+    padding: 28px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    cursor: pointer;
+}
+
+.tf-tiny-yolo-v3 .add:hover {
+    background-color: rgb(227, 227, 227);
+    color: white;
+}
+
+.tf-tiny-yolo-v3 .uk-icon-button {
+    background-color: #9E9E9E;
+    color: white;
+}
+
+.tf-tiny-yolo-v3 .uk-icon-button::after {
+    content: attr(data-tip);
+    position: absolute;
+    margin-left: 56px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4a4a4a;
+}
+
+.tf-tiny-yolo-v3 input {
+    display: none;
+}
+
+.tf-tiny-yolo-v3 canvas {
+    max-width: 200px;
+    margin: 24px;
+}
+
+.tf-tiny-yolo-v3 .imgContainer {
+    height: 200px;
+    width: 200px;
+    margin: 24px;
+}
